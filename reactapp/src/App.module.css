@@ -1,0 +1,49 @@
+.logocontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  position:fixed;
+  top:0;
+  left:10px;
+  height:90px;
+  width:180px; /* Adjust the width as needed */
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height:60px;
+  justify-content: space-between;
+  padding: 15px;
+  background-color:maroon;
+  color:white;
+  border-bottom: 5px white solid;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.center a {
+  margin: 0 30px;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+  color:white;
+  
+}
+
+.right a {
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+  color:white;
+  
+}
