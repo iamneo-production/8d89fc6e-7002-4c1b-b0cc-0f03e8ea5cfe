@@ -1,0 +1,148 @@
+.logocontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.logo {
+    display: flex;
+    position:fixed;
+    top:0;
+    left:10px;
+    height:90px;
+    width:180px; /* Adjust the width as needed */
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
+  .login_container {
+    background-color: rgb(218, 218, 218);
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;  
+}
+.loginheader{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+    height:60px;
+    right:0;
+    left:0;
+    padding:15px 0px;
+    border-bottom: white solid 5px;
+    background-color:maroon;
+} 
+.logocontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    position:fixed;
+    top:0;
+    left:10px;
+    height:90px;
+    width:180px; /* Adjust the width as needed */
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+.heading {
+    color:white;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    line-height: 5px;
+}
+.loginbody{
+    position:relative;
+    top:150px;
+    right:0;
+    left:0;
+    bottom:0;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center; 
+}
+  
+.loginform {
+    
+    background-color: whitesmoke;
+    margin: 0 auto;
+    padding: 25px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+.loginform > div {
+    margin-bottom: 15px;
+    
+}
+  
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+  
+input[type="email"],
+input[type="password"]
+{
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+  
+.password_area{
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+  
+.login_button {
+    margin-top:10px;
+    padding: 10px 20px;
+    background-color: maroon;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+  
+.login_button:hover {
+    background-color: rgb(110, 0, 0);
+}
+  
+.sign_up { 
+    margin-top: 10px;
+    text-align: center;
+    
+}
+  
+.sign_up a {
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+  
+.sign_up a:hover {
+    text-decoration: underline;
+}
+    
