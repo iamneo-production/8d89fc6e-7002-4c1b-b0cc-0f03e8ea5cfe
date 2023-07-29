@@ -1,7 +1,7 @@
 package com.examly.springapp.service;
 
-import com.example.backend.Model.UserModel;
-import com.example.backend.Repository.UserRepository;
+import com.examly.springapp.model.UserModel;
+import com.examly.springapp.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
