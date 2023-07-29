@@ -33,7 +33,7 @@ const ReviewPage = () => {
 
   const loadReviews = () => {
     axios
-      .get('http://localhost:8080/user/getReview')
+      .get('https://8080-bccbfcacfceaaabbdddabaaafdeafcffbbb.project.examly.io/user/getReview')
       .then((response) => {
         setReviews(response.data);
         setLoading(false);
@@ -63,7 +63,7 @@ const ReviewPage = () => {
 
     if (editReviewId) {
       axios
-        .put(`http://localhost:8080/user/editReview/${editReviewId}`, review)
+        .put(`https://8080-bccbfcacfceaaabbdddabaaafdeafcffbbb.project.examly.io/user/editReview/${editReviewId}`, review)
         .then((response) => {
           const updatedReviews = reviews.map((review) =>
             review.id === editReviewId ? response.data : review
@@ -78,7 +78,7 @@ const ReviewPage = () => {
         });
     } else {
       axios
-        .post('http://localhost:8080/user/addReview', review)
+        .post('https://8080-bccbfcacfceaaabbdddabaaafdeafcffbbb.project.examly.io/user/addReview', review)
         .then((response) => {
           setReviews([...reviews, response.data]);
           setNewReview('');
@@ -100,7 +100,7 @@ const ReviewPage = () => {
 
   const handleDeleteReview = (id) => {
     axios
-      .delete(`http://localhost:8080/reviews/deleteById/${id}`)
+      .delete(`https://8080-bccbfcacfceaaabbdddabaaafdeafcffbbb.project.examly.io/reviews/deleteById/${id}`)
       .then((response) => {
         const updatedReviews = reviews.filter((review) => review.id !== id);
         setReviews(updatedReviews);
