@@ -1,4 +1,4 @@
-package com.example.backend.Controller;
+package com.examly.springapp.controller;
 
 import java.util.List;
 
