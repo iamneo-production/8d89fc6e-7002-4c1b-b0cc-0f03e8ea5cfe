@@ -4,9 +4,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import com.example.backend.Model.Plans;
-import com.example.backend.Model.UserModel;
-import com.example.backend.Service.UserService;
+import com.examly.springapp.model.Plans;
+import com.examly.springapp.model.UserModel;
+import com.examly.springapp.services.UserService;
 
 import java.util.List;
 import java.util.Map;
