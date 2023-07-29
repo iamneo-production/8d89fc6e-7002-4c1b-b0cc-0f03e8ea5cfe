@@ -7,7 +7,7 @@ const ReviewList = ({ reviews, userEmail,handleEditReview }) => {
 
   const handleDeleteReview = (id) => {
     // Send a DELETE request to the server
-    axios.delete(`http://localhost:8080/user/deleteReview/${id}`)
+    axios.delete(`https://8080-bccbfcacfceaaabbdddabaaafdeafcffbbb.project.examly.io/user/deleteReview/${id}`)
       .then((response) => {
         // If the review was deleted successfully, log the message
         console.log(`Successfully deleted review with id: ${id}`);
