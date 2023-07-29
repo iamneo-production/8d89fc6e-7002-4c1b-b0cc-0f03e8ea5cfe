@@ -44,7 +44,7 @@ const Recharge = () => {
 
     try {
       console.log(payload);
-      const response = await axios.post('http://localhost:8080/user/addRecharge', payload);
+      const response = await axios.post('https://8080-bccbfcacfceaaabbdddabaaafdeafcffbbb.project.examly.io/user/addRecharge', payload);
 
       if (response.status === 200) {
         // Recharge successful, handle the response accordingly
@@ -68,7 +68,7 @@ const Recharge = () => {
     };
 
     try {
-      const response = await axios.post('http://localhost:8080/sendmail', mailPayload);
+      const response = await axios.post('https://8080-bccbfcacfceaaabbdddabaaafdeafcffbbb.project.examly.io/sendmail', mailPayload);
       if (response.status === 200) {
         console.log('Mail notification sent successfully');
       } else {
