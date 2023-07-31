@@ -1,0 +1,139 @@
+.signup_container {
+    background-color: rgb(218, 218, 218);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
+  
+  .Signupheader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    height: 60px;
+    right: 0;
+    left: 0;
+    padding: 15px 0px;
+    margin-bottom: 20px;
+    border-bottom: 5px solid white;
+    background-color: maroon;
+  }
+  
+  .logocontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 10px;
+    height: 90px;
+    width: 180px; /* Adjust the width as needed */
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
+  
+  h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+  }
+  
+  .Signupbody {
+    position: relative;
+    top: 120px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .signupform {
+    background-color: whitesmoke;
+    margin: 0 auto;
+    padding: 20px 40px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form_input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="password"] 
+  {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  } */
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .signup_btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: maroon;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .signup_btn:hover {
+    background-color: rgb(110, 0, 0);
+  }
+  
+  .log_in {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .log_in  a {
+    color: #007bff;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+  
+  .log_in a:hover {
+    text-decoration: underline;
+  }
