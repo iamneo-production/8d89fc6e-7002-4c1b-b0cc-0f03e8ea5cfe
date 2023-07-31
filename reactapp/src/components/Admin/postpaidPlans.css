@@ -1,0 +1,228 @@
+.admin_card{
+    background-color: pink;
+}
+
+header{  
+    background-color: violet;
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    margin: 10px 200px 20px 40px;
+    padding: 5px 10px 10px 10px;
+    display: flex;
+    flex-direction: row;
+}
+.admin_plan_type {
+    width: -moz-fit-content;
+    width: fit-content;
+    text-align: left;
+    padding: 0px 15px 0px 50px;
+    color:black;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.admin_plan_name{
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 0px 15px 0px 15px;
+    color:black;
+    text-transform: uppercase;
+
+}
+.title1{
+    padding-left: 100px;
+    padding-right: 200px;
+}
+.title2{
+    padding-left: 100px;
+    padding-right: 200px;
+}
+.title3{
+    padding-left: 50px;
+}
+
+.admin_plan_offer{
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+
+
+
+.section5 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 100px; 
+    padding: 20px; 
+  }
+  
+  .edit-button,
+  .delete-button {
+    margin-left: 10px; 
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .edit-button {
+    background-color: blueviolet;
+  }
+  .delete-button {
+    background-color: red;
+  }
+.edit-button:hover{
+    transform: scale(1.3); 
+    background-color:skyblue;
+}
+.delete-button:hover {
+    transform: scale(1.3); 
+    background-color:red;
+ 
+}
+
+
+
+
+
+
+
+
+
+.confirmation-dialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+.dialog {
+    margin-bottom: 20px;
+  }
+
+  .confirmation-buttons button {
+    margin-right: 10px;
+    margin-left: 50px;
+  }
+  
+  .confirm-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    margin-right: 30px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .cancel-button {
+    background-color: #6c757d;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .confirm-button:hover{
+    opacity: 0.8;
+    transform: scale(1.3);
+    background-color: rgb(238, 9, 9);
+  }
+  .cancel-button:hover {
+    opacity: 0.8;
+    transform: scale(1.3);
+  }
+  
+
+
+
+
+
+  /* search and ADD */
+  .grid-3 {
+    flex-basis: 25%; /* Adjust the value based on your grid system */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .grid-6 {
+    flex-basis: 100%; /* Adjust the value based on your grid system */
+  }
+/* prepaidPlans.css */
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px; /* Adjust the distance as per your preference */
+}
+
+.search-bar,
+.search-bar input {
+  flex: 1; /* Distribute the available space equally */
+  margin-right: 10px; /* Adjust the distance between the elements */
+}
+
+.search-bar button:last-child {
+  margin-right: 0; /* Remove margin from the last button */
+}
+.search-container input {
+  width: 100%; /* Set the width to 100% to occupy the available space */
+  padding: 8px; /* Adjust the padding as per your preference */
+  font-size: 16px; /* Adjust the font size as per your preference */
+  /* background-color: #dc3545; */
+}
+
+
+.add_plan{
+  border-radius: 12px;
+  margin-top: 10px;
+  margin-left: 70px;
+  font-size: 20px;
+}
+.add_plan:hover{
+  cursor: pointer;
+  transform: scale(1.3);
+  background-color: gold;
+}
+
+
+
+
+
+
+
+.no-plans-message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bolder;
+  color: #333;
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
