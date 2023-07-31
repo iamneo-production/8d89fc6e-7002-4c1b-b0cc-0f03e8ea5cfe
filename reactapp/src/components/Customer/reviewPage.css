@@ -1,0 +1,145 @@
+.review_body{
+    padding-top:20px;
+    background-color: #ccc;
+    padding-bottom: 20px;
+}
+
+.no_reviews_message{
+    font-size: 2rem;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.heading_review{
+    color: black;
+}
+
+.input_fields_username{
+    margin-bottom: 40px;
+    background-color: #CBFFA9;
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 70px;
+    text-transform: uppercase;
+}
+
+
+
+.review_textarea{ 
+    font-size:1.5rem;
+    width: 1240px;
+    height: 96px;
+    text-align: center;
+    margin-left: 70px;
+    /* background-color: brown; */
+}
+
+.rating_div{
+    width: 90%;
+    text-align: center;
+    margin-left: 70px;
+    /* background-color: goldenrod; */
+}
+
+
+
+
+.add_update_btn{
+    height: 40px;
+    width: 100px;
+    border: 2px black solid;
+    border-radius: 50px;
+}
+.add_update_btn:hover{
+   background-color:#FF9B9B;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.reviews_section{
+    border: 4px black solid;
+    margin: 0px 40px;
+    border-radius: 40px;
+     background-color: #99DBF5;
+    padding-bottom:20px;
+}
+.reviews_head{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+   
+}
+.unorder_list{
+    text-align: center;
+    margin-left: 70px;
+    /* background-color: #E2F6CA; */
+    width: 90%;
+}
+
+.order_list{
+    margin-left: 20%;
+    background-color: #9BE8D8;
+    width: 50%;
+    border: 2px black solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.review_username{
+    text-transform: uppercase;
+}
+.review_rating{
+    font-weight: bold;
+}
+
+
+.review_edit_btn{
+    background-color: blue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.review_edit_btn:hover{
+    transform: scale(1.3);
+    background-color: blue;
+}
+.review_delete_btn{
+    background-color: red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    padding: 8px 12px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.review_delete_btn:hover{
+    transform: scale(1.3);
+    background-color: red;
+}
+
