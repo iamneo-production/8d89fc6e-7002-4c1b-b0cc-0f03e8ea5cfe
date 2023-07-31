@@ -1,0 +1,98 @@
+.card{
+    background-color: gray;
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    margin: 10px 200px 20px 40px;
+    padding: 5px 10px 10px 10px;
+    display: flex;
+    flex-direction: row;   
+}
+
+/* section 1 CSS */
+.col1{
+    flex:1.5;
+    padding-bottom: 30px;
+}
+.type{
+    width:fit-content;
+    text-align: left;
+    margin-left: 50px;
+    padding: 0px 15px 0px 15px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+}
+
+.price{
+    font-size: 2.5em;
+    font-weight:bold;
+    padding-left: 50px;
+    text-align: left;
+    margin: 10px 0px 0px 0px;
+}
+.rupees{
+    height: 35px;
+    margin-right: 10px;
+}
+.details{
+    font-weight:bold;
+    text-align: left;
+    padding-left: 50px;
+    margin: 10px 0px 0px 0px;
+  
+}
+
+
+
+/* section2 */
+.blackLine{
+    border-right: 4px solid black;
+    margin: 15px 50px 100px 10px;
+    /* margin: 50px; */
+}
+
+/* section3  & section4*/
+.col{
+    flex: 1;
+    font-weight:bold;
+}
+.section3{
+    text-align: left;
+}
+
+.section_Heading{
+    font-weight: bold;
+}
+
+
+
+
+
+/* sectionn 5 */
+.col2{
+    align-items:end;
+    text-align: end;
+}
+
+.arrowButton{
+    background-color:gray;
+    color: black;
+    margin-top: 0;
+    padding-right: 0px;
+}
+
+/* Arrow Button hover */
+.arrowButton:hover {
+    cursor:pointer;
+    background-color: gray;
+  }
+
+/* OTT netflix */
+.ott{
+    margin-top: 100px;
+    bottom: 0px;
+    right: 30px;
+    height: 60px;
+}
+
+
