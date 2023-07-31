@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import Card from "../CustomerSide/Card";
+import Card from "../Customer/Card";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faIndianRupeeSign } from '@fortawesome/free-solid-svg-icons';
 import { faPenSquare, faTrashAlt, faRupeeSign } from '@fortawesome/free-solid-svg-icons';
