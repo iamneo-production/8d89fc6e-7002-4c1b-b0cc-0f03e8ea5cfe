@@ -1,0 +1,23 @@
+.content {
+    margin-top: 10%;
+    display: flex;
+    padding: 0 100px 0 10px;
+
+  }
+
+.column1 {
+    padding-top: 50px;
+    flex: 3;
+    /* border: 1px solid #000000; */
+    text-align: center;
+    margin-left: 200px;
+  }
+.column2 {
+    text-align: left;
+    flex: 1;
+    /* border: 1px solid black; */
+    margin-right: 100px;
+  }
+.column2 img{
+    height: 200px;
+}
